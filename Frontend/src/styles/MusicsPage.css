@@ -1,0 +1,72 @@
+/* MusicPage.css */
+
+.music-container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.music-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.youtube-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.youtube-video {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 560px;
+    margin-bottom: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.youtube-video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+}
+
+.video-description {
+    padding: 15px;
+    text-align: center;
+}
+
+.video-description h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.video-description p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .youtube-video {
+        max-width: 100%;
+    }
+
+    .youtube-video iframe {
+        height: 215px;
+    }
+}

@@ -1,0 +1,26 @@
+:root {
+  font-family: Arial, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(15, 1, 1, 0.97);
+  background-color: #f8f8f8;  font-family: Arial, sans-serif;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%; 
+}
+
+
+

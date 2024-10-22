@@ -1,0 +1,283 @@
+/* General Styles */
+.axum-container {
+  width: relative;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #510cf0;
+  background-color: rgb(231, 231, 248);
+  margin-left: 0;
+   overflow-x: hidden;
+   
+}
+.axum-container p{
+text-align: left;
+}
+.axum-container hr{
+width: 98%;
+background-color: black;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+
+.axum-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #ff5722;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.axum-main-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.axum-container li {
+  color: black;
+  list-style: none;
+  font-size: 18px;
+}
+
+.axum-main-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.axum-main-image:hover {
+  transform: scale(1.05);
+}
+
+.flex {
+  display: flex;
+}
+.flex img{
+  margin-left: 20px;
+
+}
+
+.flex .axum-section-text, .flex .axum-attraction-text {
+  display: flex;
+  font-size: 22px;
+  line-height: 2;
+  color: rgb(10, 0, 0);
+  padding: 5px;
+  background-color: none;
+  border: none;
+  border-radius: 0px;
+  width: 730px;
+}
+
+.axum-tips-list li{
+  text-align: left;
+  font-size: 21px;
+  margin-right: 50px;
+}
+.faq-div {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.faq-div p {
+  margin-left: 40px;
+  font-size:20px;
+}
+
+.axum-section-about,
+.axum-section-history,
+.axum-section-getting-there,
+.axum-section-attractions,
+.axum-section-culture,
+.axum-section-accommodation,
+.axum-section-markets-museums,
+.axum-section-restaurants,
+.axum-section-hotels-lodges,
+.axum-section-best-time,
+.axum-section-faq,
+.axum-section-map,
+.axum-section-special {
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 110px;
+  margin-top: 35px;
+}
+
+.axum-section-title {
+  font-size: 30px;
+  color: #040429;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-top: 60px;
+  padding-top: 10px;
+}
+
+.axum-section-text {
+  font-size: 22px;
+  line-height: 2;
+  color: rgb(10, 0, 0);
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  width: 1200px;
+  margin: auto;
+}
+
+.axum-image-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;  
+}
+
+
+.axum-image-group img {
+  width: 380px;
+  height: 400px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 468px) {
+  .axum-image-group img {
+    width: 100%; 
+    height: auto; 
+  }
+}
+
+
+.axum-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.axum-single-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.axum-single-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.axum-attraction-text, .axum-faq-answer {
+  color: rgb(20, 2, 2);
+}
+
+.axum-attraction-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.axum-attraction-image:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.axum-section-text 
+ .axum-section-text 
+ .axum-attraction-text 
+ {
+  margin: 0;
+  padding: 0;
+}
+.faq-div {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.faq-div p {
+  margin-left: 40px;
+  font-size:20px;
+}
+.axum-faq-item{
+  text-align: left;
+}
+.axum-section-faq {
+  display: flex;
+  align-items: flex-start;
+}
+
+.faq-div {
+  margin-left: 900px;
+}
+
+.axum-faq-list {
+  list-style: none;
+  padding: 0;
+}
+.axum-faq-item hr {
+  height: 0.6px;
+  width: relative;
+  
+}
+
+.axum-faq-item {
+  margin-bottom: 10px;
+}
+
+.axum-faq-question {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 100;
+  margin-left: 30px;
+}
+
+.faq-icon {
+  margin-left: 10px;
+}
+
+.axum-faq-answer {
+  margin-top: 5px;
+  padding-left: 20px;
+  font-weight: 100;
+}
+
+
+
+@media only screen and (max-width: 468px) {
+  .axum-section-text,
+  .axum-attraction-text,
+  .axum-section-about,
+  .axum-section-history,
+  .axum-section-getting-there,
+  .axum-section-attractions,
+  .axum-section-culture,
+  .axum-section-accommodation,
+  .axum-section-markets-museums,
+  .axum-section-restaurants,
+  .axum-section-hotels-lodges,
+  .axum-section-best-time,
+  .axum-section-faq,
+  .axum-section-map,
+  .axum-section-special {
+    width: 100%;
+  }
+  
+  .axum-image-group img,
+  .axum-single-image,
+  .axum-attraction-image {
+    width: 50%;
+    height: auto;
+  }
+}

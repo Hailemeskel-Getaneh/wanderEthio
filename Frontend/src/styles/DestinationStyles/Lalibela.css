@@ -1,0 +1,246 @@
+.lalibela-container {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #510cf0;
+  background-color: rgb(231, 231, 248);
+  margin-left: 0;
+}
+
+.lalibela-container p {
+  text-align: left;
+}
+
+.lalibela-container h3 {
+  text-align: left;
+  font-size: 20px;
+  margin: auto;
+  color: rgb(77, 39, 150);
+  margin-left: 300px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.lalibela-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #ff5722;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.lalibela-main-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lalibela-section-about,
+.lalibela-section-history,
+.lalibela-section-getting-there,
+.lalibela-section-attractions,
+.lalibela-section-culture,
+.lalibela-section-accommodation,
+.lalibela-section-markets-museums,
+.lalibela-section-restaurants,
+.lalibela-section-hotels-lodges,
+.lalibela-section-best-time,
+.lalibela-section-faq,
+.lalibela-section-map,
+.lalibela-section-special,.faq-section {
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 120px;
+
+}
+
+.lalibela-section-about hr,
+.lalibela-section-history hr,
+.lalibela-section-getting-there hr,
+.lalibela-section-attractions hr,
+.div-out-hr hr,
+.lalibela-section-accommodation hr,
+.lalibela-section-markets-museums hr,
+.lalibela-section-restaurants hr,
+.lalibela-section-hotels-lodges hr,
+.lalibela-section-best-time hr,
+.lalibela-section-faq hr,
+.lalibela-section-map hr,
+.lalibela-section-special hr {
+  width: 95%;
+  margin: auto;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.lalibela-section-title {
+  font-size: 28px;
+  color: #010422;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.lalibela-section-text {
+  font-size: 22px;
+  line-height: 2;
+  color: #1a0101;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 1200px;
+  margin: auto;
+}
+
+.lalibela-image-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+ 
+
+
+}
+
+.lalibela-image-group img {
+  width: 350px;
+  height: 400px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  object-fit: cover;
+  object-position: center;
+}
+
+.lalibela-image-group img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.lalibela-single-image, .faq-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  margin-left: 80px;
+}
+.lalibela-single-image{
+  margin-left: 1000px;
+}
+.lalibela-single-image:hover , .faq-image:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.lalibela-attraction-text,
+.lalibela-faq-answer {
+  color: rgb(20, 2, 2);
+}
+
+.lalibela-attraction-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.lalibela-attraction-image:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+
+@media screen and (max-width: 768px) {
+  .lalibela-image-group img {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex .lalibela-section-text {
+  width: 600px;
+  height: relative;
+  margin-left: 40px;
+}
+
+.lalibela-section-special ul {
+  text-align: left;
+  font-size: 20px;
+}
+
+
+.lalibela-faq-item {
+  text-align: left;
+  font-size: 20px;
+  color: black;
+}
+.lalibela-section-faq {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  margin-right: 0;
+  width: 100%;
+}
+
+.faq-section {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.faq-content {
+  flex: 1;
+}
+
+.faq-intro-text {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+  color: black;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Aligns items with space between them */
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  max-width: calc(100% - 20px); /* Adjust based on your layout */
+}
+
+.faq-icon {
+  margin-left: 10px; /* Adjust margin as needed */
+  margin-right: 10px; /* Adds margin to the right of the icon */
+  transition: transform 0.3s ease;
+}
+
+.faq-divider {
+  height: 0.5px; /* Adjusted height for a thinner line */
+  background-color: #141313;
+  border: none;
+  margin-top: 10px;
+  margin-right: 20px; /* Adds margin to the right of the hr */
+  width: calc(100% - 40px); /* Adjust to match the width of the FAQ content */
+}
