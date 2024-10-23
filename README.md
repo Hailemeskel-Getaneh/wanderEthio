@@ -20,7 +20,11 @@ WanderEthio is a comprehensive tourism platform designed to enhance the travel e
 
 ## Project Overview
 
-WanderEthio is a MERN stack application built using Vite for the frontend and Nodemon for the backend. It includes detailed pages for various destinations in Ethiopia, covering aspects such as history, top attractions, culture, accommodations, and more. The website also features sections on Ethiopian music, food, films, and a registration/payment system integrated with Chapa.
+WanderEthio is a MERN stack application built using Vite for the frontend and Nodemon for the backend.
+ It includes detailed pages for various destinations in Ethiopia,
+ covering aspects such as history, top attractions, culture, accommodations, and more.
+ The website also features sections on Ethiopian music, food, films, and
+a registration/payment system integrated with Chapa.
 
 ## Features
 
@@ -43,7 +47,8 @@ WanderEthio is a MERN stack application built using Vite for the frontend and No
   - Ask a Question Page
   - Cultural Insights (music, food, dressings, films)
 
-- **User Registration and Payment**: Users can register and make payments through the integrated Chapa payment system.
+- **User Registration and Payment**: Users can register and make payments through the
+integrated Chapa payment system.
 
 ## Technologies Used
 
@@ -63,12 +68,12 @@ WanderEthio is a MERN stack application built using Vite for the frontend and No
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Hailemeskel-Getaneh/wanderEthio-v3.git
+   git clone https://github.com/Hailemeskel-Getaneh/wander.git
    ```
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd wanderEthio-v3
+   cd wander
    ```
 
 3. **Install Dependencies**:
@@ -84,7 +89,8 @@ WanderEthio is a MERN stack application built using Vite for the frontend and No
      ```
 
 4. **Set Up Environment Variables**:
-   - Create a `.env` file in the `backend` directory and add the necessary environment variables (e.g., database connection string, Chapa API keys).
+   - Create a `.env` file in the `backend` directory and add the necessary environment variables
+   -  (e.g., database connection string, Chapa API keys).
 
 5. **Run the Development Server**:
    - Start the backend server:
@@ -136,4 +142,3 @@ For any questions or inquiries, feel free to reach out:
 - **GitHub**: [Hailemeskel-Getaneh](https://github.com/Hailemeskel-Getaneh)
 ```
 
-Feel free to customize any parts as necessary! If you need further adjustments or additions, just let me know!
