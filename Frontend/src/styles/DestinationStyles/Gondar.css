@@ -1,0 +1,239 @@
+.gondar-container {
+  max-width: 100%;
+  margin: 0 ;
+  text-align: center;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  color: #e70303;
+  background-color: rgb(231, 231, 248);
+  margin-left: 0;
+}
+.gondar-container p {
+
+text-align: left;
+}
+.gondar-container hr {
+  width: 98%;
+  margin-left: 20px;
+  background-color: rgb(4, 2, 19);
+
+}
+
+.gondar-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #ff5722;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.gondar-main-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gondar-main-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gondar-main-image:hover {
+  transform: scale(1.05);
+}
+
+.gondar-section-about,
+.gondar-section-history,
+.gondar-section-getting-there,
+.gondar-section-attractions,
+.gondar-section-culture,
+.gondar-section-accommodation,
+.gondar-section-markets-museums,
+.gondar-section-restaurants,
+.gondar-section-hotels-lodges,
+.gondar-section-best-time,
+.gondar-section-faq,
+.gondar-section-map,
+.gondar-section-special {
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 110px;
+  margin-top: 35px;
+}
+
+.gondar-section-title {
+  font-size: 30px;
+  color: #0d043f;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.gondar-section-text {
+  font-size: 22px;
+  line-height: 2;
+  color: #131111;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 1200px;
+  margin: auto;
+}
+
+.gondar-image-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gondar-faq-list{
+  text-align: left;
+  color: rgb(31, 31, 99);
+  font-size: 20px;
+}
+
+.gondar-image {
+  width: 400px;
+  height: 330px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  object-fit: cover;
+  object-position: center;
+  gap: 20px;
+}
+
+.gondar-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gondar-single-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gondar-single-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .gondar-image {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.gondar-attraction-text , .gondar-faq-answer{
+  color: rgb(20, 2, 2);
+}
+
+.gondar-attraction-image{
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.gondar-attraction-image:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+
+.flex{
+  display: flex;
+  
+}
+.flex p{
+ font-size: 22px;
+ 
+}
+
+.flex .gondar-section-text, .gondar-attraction-text{
+  width: 600px;
+  height: relative;
+  color: black;
+  margin-left: 30px;
+}
+
+.flex li{
+  list-style: none;
+}
+.gondar-section-special p{
+  text-align: left;
+  width: 700px;
+}
+
+
+
+.faq-div {
+  margin-left: 90px;
+}
+
+.gondar-faq-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 30px;
+}
+.gondar-faq-item hr {
+  height: 0.6px;
+  width: relative;
+  padding-left: relative;
+  
+}
+
+.gondar-faq-item {
+  margin-bottom: 10px;
+}
+
+.gondar-faq-question {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  font-weight: 100;
+}
+
+.faq-icon {
+  margin-left: 1px;
+}
+
+.gondar-faq-answer {
+  margin-top: 5px;
+  padding-left: 20px;
+  font-weight: 100;
+}
+
+.gondar-tip-item{
+  text-align: left;
+}
+
+
+
+@media (max-width: 768px) {
+  .gondar-attractions-list li {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gondar-attractions-list img {
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+}@media screen and (max-width: 768px) {
+  .gondar-image {
+      width: 100%;
+      margin-top: 10px;
+  }
+}
