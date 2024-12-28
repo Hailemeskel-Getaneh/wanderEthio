@@ -1,0 +1,173 @@
+/* Addis Ababa Page Styles */
+
+.addis-ababa-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+.addis-ababa-container h3{
+   
+    margin: auto;
+  }
+
+.addis-ababa-container  p{
+   text-align:left;
+  }
+  
+  .addis-ababa-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .addis-ababa-main-image {
+    width: 80%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .addis-ababa-section-about,
+  .addis-ababa-section-history,
+  .addis-ababa-section-attractions,
+  .addis-ababa-section-culture,
+  .addis-ababa-section-accommodation,
+  .addis-ababa-section-hotels,
+  .addis-ababa-section-restaurants,
+  .addis-ababa-section-weather,
+  .addis-ababa-section-tips,
+  .addis-ababa-section-google-map {
+    margin-bottom: 40px;
+  }
+  
+  .addis-ababa-section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .addis-ababa-section-about p{
+    font-size: 22px;
+    width: 1300px;
+  margin: auto;
+  margin-top: 20px;
+  }
+
+  .addis-ababa-section-weather img{
+    margin: 30px;
+  }
+  .addis-ababa-container hr {
+    border: 0.5px solid #ccc;
+    margin-bottom: 20px;
+    width: 98%;
+    margin: auto;
+    background-color: black;
+  }
+  
+  .addis-ababa-section-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .addis-ababa-attractions-list,
+  .addis-ababa-accommodation-list,
+  .addis-ababa-hotels-list,
+  .addis-ababa-restaurants-list {
+    list-style-type: none;
+    padding: 0;
+   
+  }
+  
+  .addis-ababa-attraction-title,
+  .addis-ababa-accommodation-title,
+  .addis-ababa-hotel-title,
+  .addis-ababa-restaurant-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .addis-ababa-attraction-image,
+  .addis-ababa-accommodation-image,
+  .addis-ababa-hotel-image,
+  .addis-ababa-restaurant-image {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+
+  }
+  .addis-ababa-attraction-image:hover,
+  .addis-ababa-accommodation-image:hover,
+  .addis-ababa-hotel-image:hover,
+  .addis-ababa-restaurant-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  }
+  .addis-ababa-accommodation-image {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .addis-ababa-attraction-text,
+  .addis-ababa-accommodation-text,
+  .addis-ababa-hotel-text,
+  .addis-ababa-restaurant-text ,
+  .addis-ababa-weather-text p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align:left;
+  
+    
+  
+  
+
+
+
+
+
+  }
+  
+  .addis-ababa-tip {
+    margin-bottom: 20px;
+  }
+  
+  .addis-ababa-tip-icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .addis-ababa-tip-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .addis-ababa-tip-content {
+    margin-left: 30px;
+  }
+  
+  .addis-ababa-tip-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .addis-ababa-google-map-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 20px;
+
+  }
+  
+  @media (max-width: 768px) {
+    .addis-ababa-attraction-image,
+    .addis-ababa-accommodation-image,
+    .addis-ababa-hotel-image,
+    .addis-ababa-restaurant-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+  
