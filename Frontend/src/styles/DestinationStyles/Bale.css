@@ -1,0 +1,283 @@
+/* General Styles */
+.bale-container {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #510cf0;
+    background-color: rgb(231, 231, 248);
+    overflow-x: hidden;
+    padding-bottom: 20px;
+  }
+  
+  .bale-container p {
+    text-align: left;
+  }
+  
+  .bale-container hr {
+    width: 98%;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .bale-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #ff5722;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .bale-main-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bale-container li {
+    color: black;
+    list-style: none;
+    font-size: 18px;
+  }
+  
+  .bale-main-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bale-main-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex img {
+    margin-left: 20px;
+  }
+  .bale-section-accommodation img, .bale-section-hotels img, .bale-section-restaurants img{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .flex .bale-section-text,
+  .flex .bale-attraction-text {
+    display: flex;
+    font-size: 22px;
+    line-height: 2;
+    color: rgb(10, 0, 0);
+    padding: 5px;
+    background-color: none;
+    border: none;
+    border-radius: 0px;
+    width: 730px;
+  }
+  
+  .bale-tips-list li {
+    text-align: left;
+    font-size: 21px;
+    margin-right: 50px;
+  }
+  
+  .faq-div {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  
+  .faq-div p {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  
+  .bale-section-about,
+  .bale-section-history,
+  .bale-section-getting-there,
+  .bale-section-attractions,
+  .bale-section-culture,
+  .bale-section-accommodation,
+  .bale-section-restaurants,
+  .bale-section-hotels,
+  .bale-section-best-time,
+  .bale-section-weather,
+  .bale-section-faq,
+  .bale-section-map,
+  .bale-section-special {
+    margin-bottom: 40px;
+  }
+  
+  .bale-section-title {
+    font-size: 30px;
+    color: #040429;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    padding-top: 10px;
+  }
+  
+  .bale-section-text {
+    font-size: 22px;
+    line-height: 2;
+    color: rgb(10, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    width: 1200px;
+    margin: auto;
+  }
+  
+  .bale-image-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .bale-image-group img {
+    width: 420px;
+    height: 400px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  @media screen and (max-width: 468px) {
+    .bale-image-group img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .bale-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bale-single-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bale-single-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bale-attraction-text, .bale-faq-answer {
+    color: rgb(20, 2, 2);
+  }
+  
+  .bale-attraction-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+  }
+  
+  .bale-attraction-image:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  }
+  
+  .bale-faq-list .bale-faq-item{
+    text-align: left;
+    color: black;
+    font-size: 19px;
+  
+  }
+
+  .bale-faq-list {
+    margin-top: 80px;
+  }
+
+  .bale-section-faq , .bale-faq-question{
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+  
+  .faq-div {
+    margin-left: 90px;
+  }
+  
+  .bale-faq-list {
+    list-style: none;
+    padding: 0;
+  }
+  .bale-faq-item hr {
+    height: 0.6px;
+    width: relative;
+    margin-left: 90px;
+    
+  }
+  
+  .bale-faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .bale-faq-question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    margin-left: 90px;
+  }
+  
+  .bale-faq-icon {
+    margin-left: 300px;
+  }
+  
+  .bale-faq-answer {
+    margin-top: 5px;
+    padding-left: 20px;
+    font-weight: 100;
+    margin-left: 90px;
+  }
+  
+  @media only screen and (max-width: 468px) {
+    .bale-section-text,
+    .bale-attraction-text,
+    .bale-section-about,
+    .bale-section-history,
+    .bale-section-getting-there,
+    .bale-section-attractions,
+    .bale-section-culture,
+    .bale-section-accommodation,
+    .bale-section-restaurants,
+    .bale-section-hotels,
+    .bale-section-best-time,
+    .bale-section-weather,
+    .bale-section-faq,
+    .bale-section-map,
+    .bale-section-special {
+      width: 100%;
+    }
+  
+    .bale-image-group img,
+    .bale-single-image,
+    .bale-attraction-image {
+      width: 50%;
+      height: auto;
+    }
+  }
+  
