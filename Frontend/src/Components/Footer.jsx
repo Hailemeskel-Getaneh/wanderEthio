@@ -59,3 +59,8 @@ function Footer() {
 }
 
 export default Footer;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> master

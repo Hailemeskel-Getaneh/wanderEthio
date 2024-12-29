@@ -58,7 +58,11 @@ export function NavHeader() {
                                                 <div className="sub-dropdown-content">
                                                     <ul>
                                                         <li><Link to="/destination/lalibela">Lalibela</Link></li>
+<<<<<<< HEAD
                                                         <li><Link to="/destination/semen-mountains">Semen Mountains</Link></li>
+=======
+                                                        <li><Link to="/destination/semenMountains">Semen Mountains</Link></li>
+>>>>>>> master
                                                         <li><Link to="/destination/gondar">Gondar</Link></li>
                                                         <li><Link to="/destination/axum">Axum</Link></li>
                                                         <li><Link to="/destination/debre-damo">Debre Damo</Link></li>

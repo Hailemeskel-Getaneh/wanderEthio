@@ -108,7 +108,11 @@ const HomePage = () => {
       name: 'Simien Mountains',
       description: 'Explore the breathtaking landscapes of the Simien Mountains.',
       imageUrl: Semen,
+<<<<<<< HEAD
       link: '/destination/semen',
+=======
+      link: '/destination/semenMountains',
+>>>>>>> master
     },
     {
       name: 'Lalibela',

@@ -12,6 +12,12 @@ const contactRoute = require('./routes/contactRoute');
 const subscribersRoute = require('./routes/subscribersRoute')
 const connectDB = require('./Config/db');
 
+<<<<<<< HEAD
+=======
+// # git config --global --add safe.directory F:/wanderEthioHaile  
+
+
+>>>>>>> master
 const app = express();
 app.use(express.json());
 const PORT = process.env.PORT || 4000;
