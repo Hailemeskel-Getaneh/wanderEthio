@@ -20,7 +20,7 @@ WanderEthio is a comprehensive tourism platform designed to enhance the travel e
 
 ## Project Overview
 
-WanderEthio is a MERN stack application built using Vite for the frontend and Nodemon for the backend.
+WanderEthio is a MERN stack application built using Vite for the frontend and Node for the backend.
  It includes detailed pages for various destinations in Ethiopia,
  covering aspects such as history, top attractions, culture, accommodations, and more.
  The website also features sections on Ethiopian music, food, films, and
