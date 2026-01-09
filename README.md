@@ -97,6 +97,7 @@ integrated Chapa payment system.
      ```bash
      cd backend
      npm run start
+
      ```
    - Start the frontend development server:
      ```bash
@@ -110,6 +111,7 @@ integrated Chapa payment system.
 - Explore the various destination pages and additional sections.
 
 ## Environment Variables
+
 
 The following environment variables are required for the project to function correctly:
 
