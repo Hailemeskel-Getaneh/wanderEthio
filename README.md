@@ -113,7 +113,7 @@ integrated Chapa payment system.
 ## Environment Variables
 
 
-The following environment variables are required for the project to function correctly:
+The following environment variables are required for the project to function correctly:-
 
 - `MONGO_URI`: MongoDB connection string
 - `CHAPA_API_KEY`: Your Chapa API key
